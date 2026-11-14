@@ -5,7 +5,7 @@ def generate_otp(length=6):
     if not isinstance(length, int) or isinstance(length, bool):
         raise ValueError("Length must be an integer")
 
-    if length < 4 or length > 10:
+    if length < 4 or length > 10
         raise ValueError("OTP length must be between 4 and 10")
 
     otp = ''.join(
